@@ -16,7 +16,7 @@ function TsConfig(file) {
         module: "commonjs",
         noEmitOnError: false,
         noImplicitAny: true,
-        removeComments: true,
+        removeComments: false,
         sourceMap: false,
         target: "es5",
         outFile: `Dream_${file}.js`,
