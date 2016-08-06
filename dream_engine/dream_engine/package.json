@@ -1,0 +1,22 @@
+{
+  "author": "Nio Kasgami",
+  "bugs": {
+    "url": "https://github.com/niokasgami/DreamAbs/issues"
+  },
+  "description": "the project for the rpg Maker MV abs",
+  "homepage": "https://github.com/niokasgami/DreamAbs#readme",
+  "keywords": [
+    "RpgMakerMV"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "dream_engine",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niokasgami/DreamAbs.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
