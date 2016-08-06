@@ -23,6 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="gulpfile.js" />
     <Content Include="index.html" />
     <Content Include="web.config" />
   </ItemGroup>
@@ -31,6 +32,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="package.json" />
+    <Content Include="tsconfig.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -40,7 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
-    <Folder Include="libs\" />
+    <Folder Include="libs\Prerequised\" />
+    <Folder Include="libs\_native\" />
     <Folder Include="src\" />
   </ItemGroup>
   <PropertyGroup>
